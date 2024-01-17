@@ -1,0 +1,2 @@
+# No incluir archivos .class de java
+*.class
