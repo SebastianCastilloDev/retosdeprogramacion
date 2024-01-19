@@ -1,2 +1,5 @@
 # No incluir archivos .class de java
 *.class
+vendor/
+.vscode/
+composer.*
