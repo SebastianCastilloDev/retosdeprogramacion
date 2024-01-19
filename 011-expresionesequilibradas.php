@@ -86,8 +86,11 @@ class ExpressionTester {
 $expresion = "{ [ a * ( c + d ) ] - 5 }";
 $expressionTester = new ExpressionTester($expresion);
 echo "Expresión: " . $expressionTester->getExpression() . "<br>";
+$expressionTester->printResult();
+echo "<br>";
+echo "<br>";
+echo "Si la expresion esta equilibrada, todos los contadores de los delimitadores deben ser igual a 0 <br>";
 echo "Parentesis: " . $expressionTester->getParentesisBalancer() . "<br>";
 echo "Corchetes: " . $expressionTester->getCorchetesBalancer() . "<br>";
 echo "Llaves: " . $expressionTester->getLlavesBalancer() . "<br>";
 
-$expressionTester->printResult();
